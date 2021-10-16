@@ -37,3 +37,13 @@ git init
 
 **Now if you check the pwd there will be a (master) mark end of the path showing that this is the master branch. You can have multiple branches in a repository. When you navigte to a particular branch it will show that marker in the path.
 
+**To Add file into repository or let git know to track it
+git add master.txt
+or
+git add .  "This is a wild card"
+
+**check status
+git status
+
+**to commit the file to repositry
+git commit -m "comments goes here!"
