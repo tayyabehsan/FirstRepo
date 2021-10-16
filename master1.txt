@@ -18,3 +18,7 @@ git log --pretty=oneline
 git reset --soft "HashName"
 
 
+Use git revert instead of reset. Reset can effect everybody who is collaborating.
+Revert will create new history keep the version moving forward.
+
+git revert "HashName" 
