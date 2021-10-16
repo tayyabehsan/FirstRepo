@@ -1,1 +1,12 @@
 This is the second file. 
+
+Git Commands
+
+git init (To Add Folder to Repository or Creating Repository)
+git add . (To Add Files)
+git commit - m "Message" (To Commit Changes)
+git status (To Get the Status)
+git log (History of Commit Logs)
+git add remote origin Server_Repo_URL (To add repository to Web Server)
+git push -u origin "Branch Name" master/main (To push the contents to server)
+git clone Server_Repo_URL (To Clone a repository from Server)
