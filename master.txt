@@ -1,0 +1,39 @@
+This is my first Repository in Git.
+I have used the following commands to get to this point.
+I installed the Git Client via Internet from the following link:
+https://git-scm.com/download/win
+After installing the software I launched it.
+In the Command Prompt:
+I set the configuration for
+git --config user.name "tayyabehsan"
+git --config user.email tayyabehsan@gmail.com
+
+**To check the configuration
+git --config list
+**To check the current path
+pwd
+
+To check version and/or help with commands
+git --version
+git --help
+
+***This will be your base folder for creating repositories
+To make the directory
+mkdir Git_Demo
+
+To remove the directory
+rm -Rf Git_Demo
+
+To change the directory
+cd Git_Demo/
+
+***In the base folder create another folder
+mkdir FirstRepo
+cd FirstRepo/
+
+
+**To Create Repository in the current folder
+git init
+
+**Now if you check the pwd there will be a (master) mark end of the path showing that this is the master branch. You can have multiple branches in a repository. When you navigte to a particular branch it will show that marker in the path.
+
