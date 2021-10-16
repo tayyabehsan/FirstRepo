@@ -17,5 +17,4 @@ git log --pretty=oneline
 
 git reset --soft "HashName"
 
-git reset this changes let's see if this works
 
