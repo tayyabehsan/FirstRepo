@@ -22,3 +22,15 @@ Use git revert instead of reset. Reset can effect everybody who is collaborating
 Revert will create new history keep the version moving forward.
 
 git revert "HashName" 
+
+Git Branch Commands
+
+git branch New_Branch (Create New Branch)
+git checkout New_Branch (To Get Into New Branch or Change Branch)
+git push -u origin New_Branch (To Push on to the Server)
+git branch -av (To get the list of all branches)
+git merge New_Brach (To merge changes to MASTER)
+git branch -D New_Branch (to delete the branch after your work is done)
+git push origin --delete New_Branch (To PUSH the deletion on the Server)
+
+
